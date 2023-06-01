@@ -127,6 +127,9 @@ def worker(ws, loop):
     asyncio.set_event_loop(loop)
     loop.run_until_complete(ws.start())
 
+@app.route('/')
+def home():
+    return render_template('index.html')
 
 usr_agent = {
     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
