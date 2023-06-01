@@ -1,0 +1,51 @@
+
+flask
+
+numpy
+
+gunicorn
+
+requests
+
+braintree
+
+# twilio
+
+flask_bootstrap
+
+openai
+
+# wolframalpha
+
+# wikipedia
+
+asyncio
+
+flask_cors
+
+# tronpy
+
+web3==5.25.0
+
+pandas
+
+# json
+
+matplotlib
+
+# librosa
+
+# cbpro
+
+# sklearn
+
+# coinbase
+
+uuid
+
+django
+
+stripe
+
+faunadb
+
